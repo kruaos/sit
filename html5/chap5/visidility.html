@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+    <head>
+        <title>การควบคุมการมองเห้นอิลิเมนต์ด้วยพร็อปเพอร์ตี้ หน้า164</title>
+    </head>
+    <style>
+     img { 
+         height: 60px;
+         margin: 5px;    
+     }
+     img.visible { visibility: visible;}
+     img.hidden { visibility: hidden; }
+     img.collapee {
+         visibility: collapse;  /* เบราเซอร์ยังไม่รองรับค่านี้ */
+         display: none;             /*****/
+     }
+    </style>
+    </head>
+    <body>
+        <img src="cat.jpg">
+        <img src="cat.jpg" class="visible">
+        <img src="cat.jpg">
+        <br>
+        <img src="cat.jpg">
+        <img src="cat.jpg" class="hidden">
+        <img src="cat.jpg">
+        <br>
+        <img src="cat.jpg">
+        <img src="cat.jpg" class="collapee">
+        <img src="cat.jpg">
+        <br> 
+    </body> 
+</html>
