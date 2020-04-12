@@ -1,0 +1,67 @@
+<htal>
+    <head>
+        <title>เว็ปรับสมัครคำเรา/เกรียด ประยุทธ์ (หนึงในครนเกรียดมีกูด้วย)</title>
+    </head>
+</htal>
+<style>
+    legend {
+        background: pink;
+        padding: 4px;
+        border-radius: 3px;
+        box-shadow: 0 0 0 10px;
+    }
+</style>
+<body>
+    <img src="Prayut.jpg">
+    <table style="width: 50%" border="1">
+        <tr>
+            <th>ตำเเหน่ง</th>
+            <th>ชื่อ</th>
+            <th>อยู่มากี่ปีละ</th>
+            <th>ว่าดีต่อประเทศ</th>
+        </tr>
+        <tr>
+            <td>นายกรัฐมนตรีประเทศไทย</td>
+            <td>i'm Prayut </td>
+            <td>อยู่มาจะ7ปีละ</td>
+            <td>ไม่มีเลยตั้งเเต่7ปีที่เเล้ว</td>
+        </tr>
+    </table>
+    <br>
+    <form action="#">
+        <fieldset>
+            <legend>
+               register สมัครคนรักประเทศ
+            </legend>
+            <lebel>
+                ชื่อนคนรักประเทศ
+                <input type="text" name="คนรักประเทศ" placeholder="ชื่อคุณ" required antofocus autocomplete="">
+                อายุ
+                <input type="text" name="อายุ" placeholder="อายุคุณ" required antofocus autocomplete=""> 
+                <br> <br>
+                อาชีพ
+                <input type="text" name="อาชีพ" placeholder="อาชีพของคุณ" required antofocus autocomplete="">
+                 URL :
+                 <input type="url" name="txtURL" placeholder="ป้อนที่อยุ่เว็ปร้องเรียน" required antofocus autocomplete="">
+                 วันเกิด :
+                 <input type="Date" name="txtBirthdate"  required antofocus autocomplete="">
+                 เลือกสีพรรค์ของคุณ :
+                 <input type="color" name="อนาคตใหม่" placeholder="ป้อนสีพรรค์" required antofocus autocomplete="">
+            </lebel>
+        </fieldset>
+        <fieldset>
+            <legend>คุณชอบนายกคนนี้หรือไม่ ?</legend>
+            <label>คุณชอบนายกคนนี้หรือไม่ ?</label> <br>
+            <input type="checkbox" name="yes/no"> yes <br>
+            <input type="checkbox" name="yes/no"> no <br>
+            <input type="submit" value="ส่ง">
+        </fieldset>
+        <fieldset>
+            กรุณาเลือกไฟล์ :
+            <input type="file">
+            <input type="submit" value="upload...">
+            <input type="reset" value="cancel">
+        </fieldset>
+    </form>
+    
+</body>
