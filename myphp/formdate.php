@@ -8,7 +8,7 @@
 </head>
 
     <h1>form register</h1>
-    <form action="save.php" method="post">
+    <form action="formadio.php" method="post">
         username : 
         <input type="text" name="ชื่อของคุณ" required>
         <br>
@@ -22,9 +22,9 @@
         <input type="text" name="เบอร์ของคุณ" required>
         <br>
         email : 
-        <input type="text" name="emailของคุณ" required>
+        <input type="email" name="emailของคุณ" required>
         <br>
-        <button type="submit"> Register </button>
+        <button type="submit">send</button>
         <br>
         <form action="get">
             เลือกวันทีสิ <br>
@@ -33,7 +33,7 @@
             my numder :
             <input thpe="numder" name="เลขของคุณ">
             <br>
-            <button type="submit">send</button>
+             <button type="submit">send</button>
         </form>
 
 </body>
@@ -46,3 +46,4 @@
 </body>
 </html>
         
+ 
