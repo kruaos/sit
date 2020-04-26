@@ -45,7 +45,7 @@
         
         <h4>ลองเปิดดูสิXD DX LOL55</h4>
         
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/xEpKh-A8M_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/watch?v=DemJZS2gDmk&list=RDDemJZS2gDmk&start_radio=1</iframe>
 
     <img src="thai.png" width="1000px" height="100px">
 </body>
