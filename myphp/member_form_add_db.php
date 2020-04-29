@@ -23,7 +23,7 @@ echo '</pre>';
 
 
 //insert into table
-
+ 
     $sql = "INSERT INTO tbl_member
     (
     username,
