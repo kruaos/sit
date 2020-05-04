@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <h1>สมาชิก</h1>
+    <h1>สมาชิก/เเก้ไขปรับปรุงสมาชิก</h1>
         <form action="member_form_add_db.php" method="post">
         username
         <input type="text" name="username" placeholder="username"
