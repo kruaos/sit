@@ -6,11 +6,11 @@ include 'condb.php';
  print_r($_POST);
  echo '</pre>';
 
- echo '<hr>';
+//  echo '<hr>';
 
- echo '<pre>';
- var_dump($_POST);
- echo '</pre>';
+//  echo '<pre>';
+//  var_dump($_POST);
+//  echo '</pre>';
 
 
 exit;
@@ -21,19 +21,27 @@ exit;
     $name = $_POST ['name'];
     $phone = $_POST ['phone'];
     $email = $_POST ['email'];
-    $id= $_POST['id'];
+//เช็คข้อมูลซ้ำ
+    $query = "SELECT username FROM tbl_member WHERE username='$username' " ;
+    $result = mysqli_query($condb, $query) or die("error in sql : $query". 
+        mysqli_error($query)) ;
+    echo 'จำนวนขอมูลที่พบ ' .mysqli_num_rows($result);
+
+
+exit();
+
+
 
 //insert into table
  
-    $sql = "UPDATE tpl_member SET
-    
-    username='$username',
-    password='$password',
-    name='$name',
-    phone='$phone',
-    email='$email'
-    
-    WHERE id = $id
+    $sql = "INSERT INTO tpl_member   
+    (
+    username,
+    password,
+    name,
+    phone,
+    email,
+    )
     ";
 
     $result = mysqli_query($condb, $sql) or die("error in sql : $sql". mysqli_error($sql)) ;
