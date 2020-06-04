@@ -1,0 +1,5 @@
+SELECT P.po_name, m.member_name,m.member_lname,m.email
+
+FROM tb_position as p
+ 
+INNER JOIN tb_member as m ON p.po_id = M.ref_po_id
