@@ -7,6 +7,10 @@ class Hello extends CI_Controller {
 	{
 		$this->load->view('hello_views');
 	}
+	public function index2()
+	{
+		$this->load->view('index2_views');
+	}
 	
 }
  
