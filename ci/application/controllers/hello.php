@@ -13,6 +13,7 @@ class Hello extends CI_Controller {
 	{
 		$this->load->view('index2_views');
 	}
+		
 	
 }
  

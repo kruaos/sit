@@ -11,8 +11,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<a href="https://www.pinterest.com/pin/863635666031044071/"> กดตรงนี้! สำหรับติ่งเซนอิทซึ </a>
 	<br> <br> 
-	<a href=http://127.0.0.1:5500/html-pa/index20.html> รับสมัครคำรักชาติ </a>
+	<a href=https://www.youtube.com/watch?v=8ok95ALURmk> hoho scp-529 </a>
 	<br> <br> 
 	<img src="<?php echo base_url('img');?>/caezu.jpg" alt="">
+	<>
 </body>
 </html>

@@ -4,9 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome my com </title>
+	<title>Welcome to CodeIgniter</title>
 </head>
 <body>
-	<h1>Hello Form</h1>
+    <h1 id="fr"> Show data </h1>
+    <?php echo $name; ?>
+
 </body>
 </html>
