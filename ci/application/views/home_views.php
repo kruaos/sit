@@ -7,6 +7,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<title>Welcome to CodeIgniter</title>
 </head>
 <body>
-	<h1 id="fr"> Hello home </h1>
+	<h1> Hello home </h1>
 </body>
 </html>
